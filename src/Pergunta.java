@@ -197,7 +197,7 @@ public class Pergunta {
                 "Omen",
                 "Jett",
                 "Breach",
-                "Reyna",
+                "Astra",
                 "C"
         ));
 
