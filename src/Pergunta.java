@@ -227,7 +227,7 @@ public class Pergunta {
         perguntas.add(new Pergunta(
                 "Qual personagem possui uma habilidade chamada 'Run It Back'?",
                 "Phoenix",
-                "Jett",
+                "Astra",
                 "Reyna",
                 "Breach",
                 "Omen",
