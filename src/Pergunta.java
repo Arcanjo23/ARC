@@ -12,7 +12,6 @@ public class Pergunta {
     private String opcaoE;
     private String correta;
 
-
     public Pergunta(String pergunta, String opcaoA, String opcaoB, String opcaoC, String opcaoD, String opcaoE, String correta) {
         this.pergunta = pergunta;
         this.opcaoA = opcaoA;
@@ -69,171 +68,171 @@ public class Pergunta {
 
     public static void main(String[] args) {
         List<Pergunta> perguntas = new ArrayList<>();
+
+        // Pergunta 1
         perguntas.add(new Pergunta(
-                "Quando Valorant foi lançado oficialmente em todos os países?",
-                "17 de agosto de 2019",
-                "7 de abril de 2020",
-                "2 de junho de 2020",
-                "16 de julho de 2021",
-                "19 de setembro de 2021",
+                "Qual é o nome do mapa lançado junto com o jogo?",
+                "Bind",
+                "Haven",
+                "Ascent",
+                "Icebox",
+                "Split",
+                "A"
+        ));
+
+        // Pergunta 2
+        perguntas.add(new Pergunta(
+                "Qual é a habilidade de Sage?",
+                "Cura e ressuscitação",
+                "Criar paredes",
+                "Invisibilidade",
+                "Teleportação",
+                "Armadilha de veneno",
+                "A"
+        ));
+
+        // Pergunta 3
+        perguntas.add(new Pergunta(
+                "Qual é o nome do agente com habilidades de rastreamento?",
+                "Reyna",
+                "Omen",
+                "Sova",
+                "Phoenix",
+                "Viper",
                 "C"
         ));
 
-        List<Pergunta> perguntas2 = new ArrayList<>();
+        // Pergunta 4
         perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
+                "Qual é o agente que usa a habilidade de 'Paranoia'?",
+                "Phoenix",
+                "Sova",
+                "Omen",
+                "Viper",
+                "Breach",
+                "C"
+        ));
+
+        // Pergunta 5
+        perguntas.add(new Pergunta(
+                "Qual é a arma que custa 2050 créditos no jogo?",
+                "Vandal",
+                "Spectre",
+                "Sheriff",
+                "Guardian",
+                "Bulldog",
+                "E"
+        ));
+
+        // Pergunta 6
+        perguntas.add(new Pergunta(
+                "Qual é o nome do desenvolvedor de Valorant?",
+                "Epic Games",
+                "Riot Games",
+                "Valve",
+                "Activision",
+                "Blizzard",
+                "B"
+        ));
+
+        // Pergunta 7
+        perguntas.add(new Pergunta(
+                "Em qual modo do jogo os jogadores jogam apenas com uma vida por rodada?",
+                "Modo Contagem Regressiva",
+                "Modo Competitivo",
+                "Modo Deathmatch",
+                "Modo Spike Rush",
+                "Modo Retorno",
+                "B"
+        ));
+
+        // Pergunta 8
+        perguntas.add(new Pergunta(
+                "Qual agente foi o primeiro a ter uma habilidade de cura?",
+                "Sage",
+                "Viper",
+                "Phoenix",
+                "Breach",
+                "Omen",
+                "A"
+        ));
+
+        // Pergunta 9
+        perguntas.add(new Pergunta(
+                "Qual é o nome da habilidade de 'smoke' de Omen?",
+                "Shrouded Step",
+                "Dark Cover",
+                "Paranoia",
+                "Blinding Light",
+                "Phoenix Flame",
+                "B"
+        ));
+
+        // Pergunta 10
+        perguntas.add(new Pergunta(
+                "Qual é o nome da habilidade de 'explosão' de Raze?",
+                "Boom Bot",
+                "Cluster Grenade",
+                "Paint Shells",
+                "Explosive Charge",
+                "Shock Dart",
+                "C"
+        ));
+
+        // Pergunta 11
+        perguntas.add(new Pergunta(
+                "Qual é o nome do recurso de 'rápido teleporte' de Jett?",
+                "Tailwind",
+                "Cloudburst",
+                "Updraft",
+                "Ember",
+                "Windstrike",
+                "A"
+        ));
+
+        // Pergunta 12
+        perguntas.add(new Pergunta(
+                "Quem é o personagem do jogo que foi inspirado por uma lenda asiática?",
+                "Phoenix",
+                "Omen",
+                "Jett",
+                "Breach",
+                "Reyna",
+                "C"
+        ));
+
+        // Pergunta 13
+        perguntas.add(new Pergunta(
+                "Qual é a principal habilidade de Viper?",
+                "Armadilha de veneno",
+                "Poço de ácido",
+                "Veneno contínuo",
+                "Fumaça venenosa",
+                "Veneno de gás",
                 "D"
         ));
 
-        List<Pergunta> perguntas3 = new ArrayList<>();
+        // Pergunta 14
         perguntas.add(new Pergunta(
-                "  Quais foram os mapas quando valorant lançou? ",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
+                "Qual é o nome do modo de jogo onde os jogadores devem pegar e plantar a Spike?",
+                "Team Deathmatch",
+                "Escalation",
+                "Search and Destroy",
+                "Bomb Rush",
+                "Plant and Destroy",
+                "C"
         ));
 
-        List<Pergunta> perguntas4 = new ArrayList<>();
+        // Pergunta 15
         perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
+                "Qual personagem possui uma habilidade chamada 'Run It Back'?",
+                "Phoenix",
+                "Jett",
+                "Reyna",
+                "Breach",
+                "Omen",
+                "A"
         ));
-
-        List<Pergunta> perguntas5 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> perguntas6 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> perguntas7 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> pergunta8 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> perguntas9 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> perguntas10 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> perguntas11 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> perguntas12 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> perguntas13 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> perguntas14 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-        List<Pergunta> perguntas15 = new ArrayList<>();
-        perguntas.add(new Pergunta(
-                " Quais foram os agentes quando o valorant lançou?",
-                "Jett, Omen, Phoenix, Yoru, Viper",
-                "Jett, Phoenyx, Raze, Viper, Neon",
-                "Jett, Killjoy, Raze, Astra, Sage",
-                "Jett, Phoenix, Reyna, Omen, Sova",
-                "Jett, Killjoy, Reyna, Omen, Sova",
-                "D"
-        ));
-
-
 
         Scanner scanner = new Scanner(System.in);
         int score = 0;
