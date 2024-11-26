@@ -108,7 +108,7 @@ public class Pergunta {
                 "Phoenix",
                 "Sova",
                 "Omen",
-                "Viper",
+                "Astra",
                 "Breach",
                 "C"
         ));
