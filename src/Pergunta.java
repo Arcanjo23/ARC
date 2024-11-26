@@ -151,7 +151,7 @@ public class Pergunta {
                 "Qual agente foi o primeiro a ter uma habilidade de cura?",
                 "Sage",
                 "Viper",
-                "Phoenix",
+                "Astra",
                 "Breach",
                 "Omen",
                 "A"
