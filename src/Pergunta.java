@@ -142,7 +142,7 @@ public class Pergunta {
                 "Modo Competitivo",
                 "Modo Deathmatch",
                 "Modo Spike Rush",
-                "Modo Retorno",
+                "Mata-Mata",
                 "B"
         ));
 
