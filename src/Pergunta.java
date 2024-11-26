@@ -185,7 +185,7 @@ public class Pergunta {
                 "Tailwind",
                 "Cloudburst",
                 "Updraft",
-                "Ember",
+                "Shock Dart",
                 "Windstrike",
                 "A"
         ));
