@@ -214,10 +214,10 @@ public class Pergunta {
 
         // Pergunta 14
         perguntas.add(new Pergunta(
-                "Qual é o nome do modo de jogo onde os jogadores devem pegar e plantar a Spike?",
+                "Qual é o nome do modo de jogo 5v5 onde os jogadores devem pegar e plantar a Spike?",
                 "Team Deathmatch",
                 "Escalation",
-                "Search and Destroy",
+                "Competitive",
                 "Bomb Rush",
                 "Plant and Destroy",
                 "C"
