@@ -208,7 +208,7 @@ public class Pergunta {
                 "Poço de ácido",
                 "Veneno contínuo",
                 "Fumaça venenosa",
-                "Veneno de gás",
+                "Parede de veneno",
                 "D"
         ));
 
