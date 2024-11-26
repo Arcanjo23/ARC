@@ -117,7 +117,7 @@ public class Pergunta {
         perguntas.add(new Pergunta(
                 "Qual é a arma que custa 2050 créditos no jogo?",
                 "Vandal",
-                "Spectre",
+                "Marshal",
                 "Sheriff",
                 "Guardian",
                 "Bulldog",
