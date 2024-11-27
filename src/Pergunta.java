@@ -253,8 +253,9 @@ public class Pergunta {
             }
         }
 
-        System.out.println("Sua pontuação final é: " + score + "/" + perguntas.size());
+        System.out.println("Você acertou: " + score + "/" + perguntas.size());
         double porcentagem = (score / 15.0) * 100;
         System.out.println("Porcentagem de acerto: " + String.format("%.2f", porcentagem) + "%");
+        System.out.println("Você errou: " + (15 - score) + "/" + perguntas.size());
     }
 }
