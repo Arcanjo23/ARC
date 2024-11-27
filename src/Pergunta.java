@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Pergunta {
 
-    private String pergunta;
-    private String opcaoA;
-    private String opcaoB;
-    private String opcaoC;
-    private String opcaoD;
-    private String opcaoE;
-    private String correta;
+    private final String pergunta;
+    private final String opcaoA;
+    private final String opcaoB;
+    private final String opcaoC;
+    private final String opcaoD;
+    private final String opcaoE;
+    private final String correta;
 
     public Pergunta(String pergunta, String opcaoA, String opcaoB, String opcaoC, String opcaoD, String opcaoE, String correta) {
         this.pergunta = pergunta;
@@ -234,7 +234,6 @@ public class Pergunta {
                 "A"
         ));
 
-        Scanner scanner = new Scanner(System.in);
         int score = 0;
 
         System.out.println("********************************************");
@@ -255,5 +254,7 @@ public class Pergunta {
         }
 
         System.out.println("Sua pontuação final é: " + score + "/" + perguntas.size());
+        double porcentagem = (score / 15.0) * 100;
+        System.out.println("Porcentagem de acerto: " + String.format("%.2f", porcentagem) + "%");
     }
 }
